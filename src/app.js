@@ -10,6 +10,7 @@ import { Provider } from "./contexts/username";
 import { useInputValue } from "./custom-hooks/use-input-value";
 import { Input } from "antd";
 import Menu, { MenuItem } from "./components/menu";
+import { Consumer } from "./contexts/language";
 
 export default function App() {
   const [username, setUserName] = useInputValue("Roma");
